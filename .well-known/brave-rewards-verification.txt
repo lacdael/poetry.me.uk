@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: poetry.me.uk
-Token: 106449401d345673e822c7929ab9fa51baece32e24962212e698636bf4af0c06

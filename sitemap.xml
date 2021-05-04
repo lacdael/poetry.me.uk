@@ -50,4 +50,5 @@
 <url> <loc>https://www.poetry.me.uk/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.poetry.me.uk/excerpts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.poetry.me.uk/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.poetry.me.uk/profile/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
