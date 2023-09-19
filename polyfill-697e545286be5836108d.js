@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpoetry_me_uk=self.webpackChunkpoetry_me_uk||[]).push([[920],{7071:function(){require("gatsby-legacy-polyfills")}},function(e){var u;u=7071,e(e.s=u)}]);
+//# sourceMappingURL=polyfill-697e545286be5836108d.js.map

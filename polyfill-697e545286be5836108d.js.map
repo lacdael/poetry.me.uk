@@ -1,0 +1,1 @@
+{"version":3,"file":"polyfill-697e545286be5836108d.js","mappings":"4GAAmCA,QAAQ,0B","sources":["webpack://poetry.me.uk/external commonjs \"gatsby-legacy-polyfills\""],"sourcesContent":["var __WEBPACK_NAMESPACE_OBJECT__ = require(\"gatsby-legacy-polyfills\");"],"names":["require"],"sourceRoot":""}
