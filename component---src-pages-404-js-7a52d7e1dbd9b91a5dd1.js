@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpoetry_me_uk=self.webpackChunkpoetry_me_uk||[]).push([[883],{429:function(e,t,n){n.r(t);var u=n(6689),l=n.n(u),r=n(4365),a=n(2406);t.default=function(){return l().createElement(r.Z,null,l().createElement(a.Z,{title:"404: Not found"}),l().createElement("h1",null,"404: Not Found"),l().createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-7a52d7e1dbd9b91a5dd1.js.map
