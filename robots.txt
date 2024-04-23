@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /nfts/
+Sitemap: https://www.poetry.me.uk/sitemap/sitemap-index.xml
