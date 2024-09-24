@@ -4,10 +4,12 @@
     },
     "relays":{
         "0a69cf2560597cd4dfff9a75f40261d902a91b139cdacea10d54a52b43219250": [
-	"wss://nostr-pub.wellorder.net",
-	"wss://relay.damus.io",
-	"wss://relay.nostr.bg",
-	"wss://nos.lol"
+	"wss://realy.noswhere.com",
+	"wss://relay.nostr.band",
+	"wss://nostr.wine",
+	"wss://nos.lol",
+	"wss://nostr.mom",
+	"wss://relay.damus.io"
 	]
     }
 }
