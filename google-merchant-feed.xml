@@ -4,13 +4,13 @@
         <description><![CDATA[Os Publishing]]></description>
         <link>https://poetry.me.uk</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Jul 2025 08:57:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Jul 2025 09:13:04 GMT</lastBuildDate>
         <atom:link href="https://poetry.me.uk/google-merchant-feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Battle for Singapore]]></title>
             <link>https://poetry.me.uk/books/battle_for_singapore/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/battle_for_singapore/</guid>
-            <g:id>/books/battle_for_singapore/</g:id>
+            <g:id>fb678cd296d616b7155f6c3fce811f02</g:id>
             <g:price/>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -21,7 +21,7 @@
             <description><![CDATA[poetry book.]]></description>
             <link>https://poetry.me.uk/books/kids_poetry/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/kids_poetry/</guid>
-            <g:id>/books/kids_poetry/</g:id>
+            <g:id>179566f2ff9c9d1d5ef874b1b9595d4d</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -32,7 +32,7 @@
             <description><![CDATA[A collection of metered rhyming poems about Anglo-Saxon bindrune spells, intended to uplift and help manifest a better reality.]]></description>
             <link>https://poetry.me.uk/books/bindrunes/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/bindrunes/</guid>
-            <g:id>/books/bindrunes/</g:id>
+            <g:id>2cd8715ecc283a66c355003d9db73c0d</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -43,7 +43,7 @@
             <description><![CDATA[A poetry collection celebrating the Western Spirit, marking the events in the Western calendar.]]></description>
             <link>https://poetry.me.uk/books/calendar/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/calendar/</guid>
-            <g:id>/books/calendar/</g:id>
+            <g:id>8ff922bbcd8ad41cdfc48d3c5163b2ab</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -54,7 +54,7 @@
             <description><![CDATA[A nature poetry collection marking the march of the seasons.]]></description>
             <link>https://poetry.me.uk/books/nature/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/nature/</guid>
-            <g:id>/books/nature/</g:id>
+            <g:id>d212ce7fdc2357d19628334b5a2a2b2f</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -65,7 +65,7 @@
             <description><![CDATA[A rhyming illustrated mummers play, about St. George having an encounter with a foreign knight.]]></description>
             <link>https://poetry.me.uk/books/st_george_foreign_knight/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/st_george_foreign_knight/</guid>
-            <g:id>/books/st_george_foreign_knight/</g:id>
+            <g:id>71169264fa362f9b187ad62eb5b95913</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
@@ -76,7 +76,7 @@
             <description><![CDATA[A metered rhyming, illustrated children's book about a search for a truck.]]></description>
             <link>https://poetry.me.uk/books/wheres_my_truck/</link>
             <guid isPermaLink="false">https://poetry.me.uk/books/wheres_my_truck/</guid>
-            <g:id>/books/wheres_my_truck/</g:id>
+            <g:id>6d25b9cd227119228bd5fb0259152df3</g:id>
             <g:price>0</g:price>
             <g:condition>new</g:condition>
             <g:availability>in stock</g:availability>
