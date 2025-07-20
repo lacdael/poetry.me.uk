@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:g="http://base.google.com/ns/1.0">
     <channel>
         <title><![CDATA[Os Publishing]]></title>
         <description><![CDATA[Os Publishing]]></description>
         <link>https://poetry.me.uk</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Jul 2025 08:45:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Jul 2025 08:57:36 GMT</lastBuildDate>
         <atom:link href="https://poetry.me.uk/google-merchant-feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Battle for Singapore]]></title>
