@@ -1,0 +1,170 @@
+Here’s a refined overview of the Google Merchant XML product feed schema, along with an optimized example to help you set one up effectively:
+
+
+---
+
+Core Requirements & Schema Overview
+
+1. Feed Format & Structure
+
+Must follow RSS or Atom specs, use UTF-8 encoding, and use Google’s required XML namespaces (e.g. xmlns:g="http://base.google.com/ns/1.0").
+
+Should be .xml (or .gz compressed) and ideally under 500 MB.
+
+
+
+---
+
+2. Required Item Tags
+
+Every <item> should include:
+
+<g:id> — Unique, stable across feeds, preferably your SKU.
+
+<title> — Clear product name (no promotional fluff).
+
+<g:description> — Accurate description, not overly promotional.
+
+<link> — Direct landing page URL, no redirects.
+
+<g:image_link> — High-quality image URL, at least 800×800 px for non-clothing.
+
+<g:price> — Numeric + currency (e.g., 29.99 USD).
+
+<g:availability> — One of: in stock, out of stock, or preorder.
+
+<g:product_type> — Your own product category hierarchy.
+
+
+
+---
+
+3. Condition-Based Requirements
+
+These depend on the product type or purpose:
+
+brand — Required unless unbranded.
+
+condition — Required; new, used, or refurbished.
+
+For apparel or similar goods: color, size, gender, age_group – required.
+
+shipping_weight — Required if shipping calculated by weight.
+
+
+
+---
+
+4. Optional Enhancements
+
+Optional tags that can boost feed accuracy and visibility:
+
+sale_price — Temporary discounted price.
+
+gtin, mpn
+
+additional_image_link
+
+google_product_category
+
+item_group_id — For variant grouping.
+
+multipack, is_bundle – for grouped listings.
+
+
+
+---
+
+Optimized Example XML Feed
+
+Here's a compact, well-structured example, including both mandatory and helpful optional tags:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>My Store Products</title>
+    <link>https://www.example.com/</link>
+    <description>Example product feed</description>
+
+    <item>
+      <g:id>SKU12345</g:id>
+      <title>Men's Running Shoes – Black</title>
+      <g:description>Lightweight running shoes with breathable mesh and durable rubber outsole.</g:description>
+      <link>https://www.example.com/product12345</link>
+      <g:image_link>https://www.example.com/images/product12345.jpg</g:image_link>
+      <g:price>59.99 GBP</g:price>
+      <g:availability>in stock</g:availability>
+      <g:product_type>Footwear > Running Shoes</g:product_type>
+      
+      <!-- Optional but recommended -->
+      <brand>BrandName</brand>
+      <condition>new</condition>
+      <g:google_product_category>Apparel & Accessories > Shoes</g:google_product_category>
+      <g:gtin>1234567890123</g:gtin>
+      <mpn>BN-RS-001</mpn>
+      <g:color>Black</g:color>
+      <g:size>10</g:size>
+      <g:gender>male</g:gender>
+      <g:shipping_weight>0.8 kg</g:shipping_weight>
+      <g:sale_price>49.99 GBP</g:sale_price>
+      <item_group_id>RUNSHOE123</item_group_id>
+      <additional_image_link>https://www.example.com/images/product12345_side.jpg</additional_image_link>
+    </item>
+
+  </channel>
+</rss>
+
+
+---
+
+Best Practices & Tips
+
+Keep IDs stable across time, languages, and countries.
+
+Ensure all URLs are direct, crawlable, and properly formatted.
+
+Avoid promotional text in titles/descriptions—stick to objective, clear language.
+
+For products like clothes with size variations, ensure each variant has its own item row (with unique id and size).
+
+If using feed rules or supplemental feeds, you can enhance or override attributes like optimized titles without changing your main site.
+
+
+
+---
+
+Would you like help customizing this example for specific product types or feed platforms (like Shopify, Magento, etc.)?
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Handmade Stationery Store</title>
+    <link>https://www.example.com/</link>
+    <description>Beautiful handmade stationery and paper goods.</description>
+
+    <item>
+      <g:id>BOOK001</g:id>
+      <title>Handmade Recycled Paper Notebook – A5</title>
+      <g:description>
+        Eco-friendly A5 notebook with 120 pages of handmade recycled paper, bound in natural hemp thread. We also accept Bitcoin and Ethereum at checkout.
+      </g:description>
+      <link>https://www.example.com/products/handmade-paper-book</link>
+      <g:image_link>https://www.example.com/images/handmade-paper-book.jpg</g:image_link>
+      <g:price>8.00 GBP</g:price>
+      <g:availability>out of stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:brand>Handmade Stationery</g:brand>
+      <g:google_product_category>Media &gt; Books</g:google_product_category>
+      <g:product_type>Handmade Books</g:product_type>
+      <g:shipping_weight>0.25 kg</g:shipping_weight>
+    </item>
+
+  </channel>
+</rss>
