@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://poetry.me.uk/shop/calendar-handmade-hardcover</loc></url>
+<url><loc>https://poetry.me.uk/shop</loc></url>
 <url><loc>https://poetry.me.uk/download/bindrunes/</loc></url>
 <url><loc>https://poetry.me.uk/download/calendar/</loc></url>
 <url><loc>https://poetry.me.uk/download/kids_poetry/</loc></url>
@@ -12,5 +14,6 @@
 <url><loc>https://poetry.me.uk/books/</loc></url>
 <url><loc>https://poetry.me.uk/christian-lacdael/</loc></url>
 <url><loc>https://poetry.me.uk/contact/</loc></url>
+<url><loc>https://poetry.me.uk/gift/</loc></url>
 <url><loc>https://poetry.me.uk/</loc></url>
 </urlset>
