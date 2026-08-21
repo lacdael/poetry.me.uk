@@ -14,7 +14,7 @@
       <g:image_link>https://poetry.me.uk/products/CALEN-H-H.png</g:image_link>
       <g:price>20.00 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:availability>preorder</g:availability>
+      <g:availability>in_stock</g:availability>
       <g:sale_price_effective_date>2025-01-01T00:00:00Z/2026-12-31T23:59:59Z</g:sale_price_effective_date>
 
       <!-- Recommended / Optional -->
@@ -39,9 +39,6 @@
       <g:age_group><![CDATA[adult]]></g:age_group>
       <g:color><![CDATA[red]]></g:color>
       <g:size><![CDATA[A5]]></g:size>
-
-      <!-- For preorder products -->
-      <g:availability_date><![CDATA[2026-01-30T00:00:00Z]]></g:availability_date>
 
       <!-- Custom labels for campaigns -->
       <g:custom_label_0><![CDATA[Handmade]]></g:custom_label_0>
